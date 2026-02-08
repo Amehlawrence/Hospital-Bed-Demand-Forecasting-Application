@@ -1,0 +1,11 @@
+docker build -t spire-hospital-application .
+
+docker run --rm -p 8501:8501 spire-hospital-application
+
+docker tag spire-hospital-application amehlawrence/spire-hospital-application:latest
+
+docker login
+
+docker push amehlawrence/spire-hospital-application:latest
+
+docker pull amehlawrence/spire-hospital-application:latest

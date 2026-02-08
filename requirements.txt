@@ -1,0 +1,12 @@
+pandas
+numpy
+statsmodels
+scikit-learn
+matplotlib
+psycopg2-binary
+python-dotenv
+streamlit
+plotly
+pytz
+joblib
+schedule
