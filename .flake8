@@ -1,4 +1,4 @@
 [flake8]
 max-line-length = 120
 exclude = myenv,venv,.venv,__pycache__,.ipynb_checkpoints,site-packages
-ignore = E501,E402,E303,F401
+ignore = E501,E402,E303,E302,E203,F401
